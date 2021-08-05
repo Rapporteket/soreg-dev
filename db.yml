@@ -1,0 +1,9 @@
+
+# for registry development
+soreg:
+  host: db
+  name: SoregReportDataStaging
+  user: root
+  pass: root
+  disp: ForSoregDevOnly
+
