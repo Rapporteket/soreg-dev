@@ -22,19 +22,3 @@ RUN cat /home/rstudio/rap_config/db.yml >> /home/rstudio/rap_config/dbConfig.yml
                                 'tibble'))" \
     && R -e "remotes::install_github(c('Rapporteket/rapbase'))"
 
-# install package dependencies
-#RUN R -e "install.packages(c('DT',\
-#                             'dplyr',\
-#                             'ggplot2',\
-#                             'kableExtra',\
-#                             'lubridate',\
-#                             'magrittr',\
-#                             'readr',\
-#                             'rlang',\
-#                             'shiny',\
-#                             'shinyalert',\
-#                             'shinyWidgets',\
-#                             'tibble'))"
-
-# add latest version of rapbase
-#RUN R -e "remotes::install_github(c('Rapporteket/rapbase'))"
