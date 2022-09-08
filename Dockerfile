@@ -14,6 +14,7 @@ RUN cat /home/rstudio/rap_config/db.yml >> /home/rstudio/rap_config/dbConfig.yml
                                 'kableExtra',\
                                 'lubridate',\
                                 'magrittr',\
+                                'markdown',\
                                 'readr',\
                                 'rlang',\
                                 'shiny',\
